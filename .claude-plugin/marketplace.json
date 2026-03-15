@@ -1,6 +1,6 @@
 {
-  "name": "syntaqlite",
-  "description": "Claude Code plugins for the syntaqlite project",
+  "name": "LalitMaganti plugins",
+  "description": "Claude Code plugins by Lalit Maganti",
   "plugins": [
     {
       "name": "syntaqlite",
