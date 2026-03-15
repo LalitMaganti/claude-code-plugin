@@ -1,0 +1,55 @@
+# syntaqlite — Claude Code Plugin
+
+SQLite SQL language support for [Claude Code](https://claude.ai/code). Provides
+diagnostics, formatting, completions, and semantic tokens via the syntaqlite LSP
+server.
+
+## Features
+
+- **LSP integration** — Automatically starts the syntaqlite language server for
+  `.sql` files, providing diagnostics, formatting, completions, and semantic
+  highlighting.
+- **`/syntaqlite:format` skill** — Format SQL files with configurable options.
+- **`/syntaqlite:parse` skill** — Inspect SQL parse trees and ASTs.
+- **`/syntaqlite:validate` skill** — Check SQL for errors against a schema.
+
+## Prerequisites
+
+The `syntaqlite` binary must be on your `PATH`. Install via any of:
+
+```bash
+# Homebrew
+brew install LalitMaganti/tap/syntaqlite
+
+# Cargo
+cargo install syntaqlite-cli
+
+# pip
+pip install syntaqlite
+
+# Download script
+curl -fsSL https://syntaqlite.com/install.sh | sh
+```
+
+## Installation
+
+From the GitHub marketplace:
+
+```bash
+claude plugin marketplace add LalitMaganti/claude-code-plugin
+```
+
+## Usage
+
+Once installed, the LSP server starts automatically when you open `.sql` files.
+Use the skills for CLI operations:
+
+```
+/syntaqlite:format query.sql
+/syntaqlite:validate --schema schema.sql query.sql
+/syntaqlite:parse query.sql
+```
+
+## License
+
+Apache 2.0. See [LICENSE](LICENSE) for details.

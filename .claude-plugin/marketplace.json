@@ -1,0 +1,18 @@
+{
+  "name": "syntaqlite",
+  "description": "SQL language tools for SQLite — formatting, parsing, validation, and LSP",
+  "plugins": [
+    {
+      "name": "syntaqlite",
+      "description": "SQLite SQL language server — diagnostics, formatting, completions, and semantic tokens",
+      "version": "0.0.24",
+      "author": {
+        "name": "Lalit Maganti"
+      },
+      "source": {
+        "source": "relative",
+        "path": "."
+      }
+    }
+  ]
+}
