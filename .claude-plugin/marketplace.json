@@ -8,10 +8,6 @@
     {
       "name": "syntaqlite",
       "description": "SQLite SQL language server — diagnostics, formatting, completions, and semantic tokens",
-      "version": "0.0.24",
-      "author": {
-        "name": "Lalit Maganti"
-      },
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/LalitMaganti/syntaqlite.git",
