@@ -1,6 +1,9 @@
 {
-  "name": "LalitMaganti plugins",
+  "name": "lalitmaganti-plugins",
   "description": "Claude Code plugins by Lalit Maganti",
+  "owner": {
+    "name": "Lalit Maganti"
+  },
   "plugins": [
     {
       "name": "syntaqlite",
