@@ -13,8 +13,8 @@
         "name": "Lalit Maganti"
       },
       "source": {
-        "source": "github",
-        "repo": "LalitMaganti/syntaqlite",
+        "source": "git-subdir",
+        "url": "https://github.com/LalitMaganti/syntaqlite.git",
         "path": "integrations/claude-code"
       }
     }
