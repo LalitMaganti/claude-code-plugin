@@ -11,7 +11,7 @@ claude plugin marketplace add LalitMaganti/claude-code-plugin
 Then install a specific plugin:
 
 ```bash
-claude plugin install syntaqlite@LalitMaganti/claude-code-plugin
+claude plugin install syntaqlite@lalitmaganti-plugins
 ```
 
 ## Available plugins
